@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organize PDF Free</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* light gray background */
+            color: #333; /* dark gray text */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+       .container {
+            background-color: #fff; /* white background */
+            padding: 30px; /* increased padding */
+            border-radius: 12px; /* increased border radius */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* increased box shadow */
+            width: 600px; /* increased width */
+            max-width: 90%; /* max width is 90% of screen width */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px; /* increased margin bottom */
+            font-size: 48px; /* increased font size */
+            color: #00698f; /* blue text */
+        }
+
+       .ad-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px; /* increased margin bottom */
+        }
+
+       .ad-button {
+            background-color: #9C27B0; /* purple background */
+            color: white;
+            padding: 15px 30px; /* increased padding */
+            border: none;
+            border-radius: 6px; /* increased border radius */
+            cursor: pointer;
+            font-size: 18px; /* increased font size */
+        }
+
+       .ad-button:hover {
+            background-color: #7B1FA2; /* darker purple background */
+        }
+
+       .ad-info {
+            color: #666; /* dark gray text */
+            font-size: 14px; /* increased font size */
+        }
+
+       .drop-zone {
+            border: 3px dashed #666; /* increased border width */
+            padding: 70px; /* increased padding */
+            border-radius: 12px; /* increased border radius */
+            text-align: center;
+            margin-bottom: 30px; /* increased margin bottom */
+        }
+
+       .drop-zone:hover {
+            border-color: #333; /* darker gray border */
+        }
+
+       .drop-zone.active {
+            background-color: rgba(0, 0, 0, 0.2); /* increased opacity */
+        }
+
+       .select-pdf {
+            background-color: #FFC107; /* orange background */
+            color: white;
+            padding: 20px 40px; /* increased padding */
+            border: none;
+            border-radius: 6px; /* increased border radius */
+            cursor: pointer;
+            font-size: 20px; /* increased font size */
+        }
+
+       .select-pdf:hover {
+            background-color: #FFA07A; /* darker orange background */
+        }
+
+       .secure-icon {
+            color: #666; /* dark gray text */
+            font-size: 20px; /* increased font size */
+            margin-top: 15px; /* increased margin top */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Organize PDF</h1>
+        
+        <div class="drop-zone">
+            <p>Drop PDF file here or</p>
+            <button class="select-pdf">Select PDF</button>
+            <div>            <span class="secure-icon">lock</span> Your files are secure
+</div>
+        </div>
+    </div>
+</body>
+</html>
